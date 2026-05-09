@@ -9,7 +9,7 @@ int main ()
 	
 	multi = 1;
 	
-	for (n=92; n<=101; n = n+1)
+	for (n=92; n<=1478; n = n+1)
 	{
 		prim = 1;
 		d = 2;
@@ -17,6 +17,7 @@ int main ()
 		{
 			if(n % d == 0)
 				prim=0;
+			
 			
 			d = d + 1;
 		}
