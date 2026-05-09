@@ -24,9 +24,9 @@ int main ()
 		if(prim==1)
 		{
 			multi = multi * n;
-			printf("%d\n", n);
+			printf("multi atual %g\n", multi);
 		}
 	}
 	
-	printf("o produto eh %f", multi);
+	printf("o produto eh %g", multi);
 }
