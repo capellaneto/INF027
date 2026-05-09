@@ -14,33 +14,37 @@ int main ()
 	printf("ERRO");
 	else
 	{
-		if (a1>a2)
+		if (a1<a2)
 		{
 			printf("a primeira pessoa eh mais velha");
 		}
-		else if (a2>a1)
+		else if (a2<a1)
 		{
 			printf("a segunda pessoa eh mais velha");
 		}
 		else
 		{
-			if(m1>m2)
+			if(m1<m2)
 			{
 				printf("a primeira pessoa eh mais velha");
 			}
-			else if(m2>m1)
+			else if(m2<m1)
 			{
 				printf("a segunda pessoa eh mais velha");
 			}
 			else 
 			{
-				if(d1>d2)
+				if(d1<d2)
 				{
 					printf("a primeira pessoa eh mais velha");
 				}
-				else if(m2>m1)
+				else if(d2<d1)
 				{
-				printf("a segunda pessoa eh mais velha");
+					printf("a segunda pessoa eh mais velha");
+				}
+				else
+				{
+					printf("as duas pessoas tem a mesma idade");
 				}
 			}
 		}
